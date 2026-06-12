@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Book Store App
 
-## Getting Started
+A full-stack Book Store web application built with Next.js, allowing users to browse and search books fetched live from the Google Books API, add books to a cart, view order details, and calculate the total bill — with user authentication and a MongoDB-backed database.
 
-First, run the development server:
+## 🚀 Features
 
+- **Book Search & Browse** – Fetches real-time book data (titles, covers, authors, descriptions) from the Google Books API
+- **Add to Cart** – Users can add individual books to their cart
+- **Order Details & Bill Calculation** – Cart displays selected books with quantities, and the total bill is calculated dynamically using JavaScript math operations
+- **User Authentication** – Secure login/signup with protected routes via Next.js middleware
+- **REST API Routes** – Backend logic handled through Next.js API routes
+- **Database Integration** – MongoDB used for storing user data and related records
+- **Reusable Components** – Modular React components for a consistent UI
+- **Route Protection** – Middleware restricts access to authenticated users where needed
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Frontend:** React.js, CSS
+- **Backend:** Next.js API Routes
+- **Database:** MongoDB (Mongoose models)
+- **External API:** Google Books API
+- **Authentication:** Middleware-based route protection
+
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Frontend:** React.js, CSS
+- **Backend:** Next.js API Routes
+- **Database:** MongoDB (Mongoose models)
+- **External API:** Google Books API
+- **Authentication:** Middleware-based route protection
+
+## ⚙️ Getting Started
+
+### Prerequisites
+- Node.js installed
+- MongoDB instance (local or Atlas)
+- Google Books API key (optional, depending on usage limits)
+
+### Installation
+
+1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Muhammad-Ali-farrukh/Books-Store-App.git
+cd Books-Store-App
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Set up environment variables (create a `.env.local` file)
+   
+4. Run the development server
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Learn More
+## 📌 Future Improvements
 
-To learn more about Next.js, take a look at the following resources:
+- Shopping cart and checkout flow
+- Save favorite books to user profile
+- Advanced search filters (genre, author, publish date)
+- Book reviews and ratings
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👤 Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Muhammad Ali Farrukh**
+- GitHub: [@Muhammad-Ali-farrukh](https://github.com/Muhammad-Ali-farrukh)
+- LinkedIn: [Ali Farrukh](https://www.linkedin.com/in/ali-farrukh-277a61318)
 
-## Deploy on Vercel
+## 📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open source and available for learning purposes.
