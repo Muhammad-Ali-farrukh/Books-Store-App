@@ -1,0 +1,49 @@
+# 📚 BookStore App
+
+A Next.js e-commerce style bookstore that integrates with the Google Books API. Users can search and browse books, add them to a cart, view individual book pages, place orders, and see a calculated bill.
+
+## 🚀 Live Demo
+> Coming soon / [Add your Vercel link here]
+
+## ✨ Features
+
+- 🔍 Search books using Google Books API
+- 📖 Individual book detail pages
+- 🛒 Add to Cart functionality
+- 📦 Order management system
+- 🧾 Bill calculation with JavaScript
+- 🔐 Middleware-based route protection
+- 💾 MongoDB for orders/cart persistence
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Framework | Next.js (App Router) |
+| API | Google Books API |
+| Database | MongoDB |
+| Language | JavaScript |
+| Styling | CSS / Tailwind |
+
+## ## ⚙️ Getting Started
+
+bash
+# Clone the repo
+git clone https://github.com/Muhammad-Ali-farrukh/Books-Store-App.git
+
+cd Books-Store-App
+npm install
+
+# Create .env.local with:
+# MONGODB_URI=your_mongo_uri
+# GOOGLE_BOOKS_API_KEY=your_key (optional, works without key too)
+
+npm run dev
+
+Open [http://localhost:3000](http://localhost:3000)
+
+## 👨‍💻 Developer
+
+**Ali Farrukh** — Junior Full Stack Developer, Lahore  
+📧 afarrukh918@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/ali-farrukh-277a61318) | [GitHub](https://github.com/Muhammad-Ali-farrukh)
