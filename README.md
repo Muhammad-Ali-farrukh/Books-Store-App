@@ -2,9 +2,6 @@
 
 A Next.js e-commerce style bookstore that integrates with the Google Books API. Users can search and browse books, add them to a cart, view individual book pages, place orders, and see a calculated bill.
 
-## 🚀 Live Demo
-> Coming soon / [Add your Vercel link here]
-
 ## ✨ Features
 
 - 🔍 Search books using Google Books API
