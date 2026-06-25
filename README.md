@@ -34,10 +34,6 @@ git clone https://github.com/Muhammad-Ali-farrukh/Books-Store-App.git
 cd Books-Store-App
 npm install
 
-# Create .env.local with:
-# MONGODB_URI=your_mongo_uri
-# GOOGLE_BOOKS_API_KEY=your_key (optional, works without key too)
-
 npm run dev
 
 Open [http://localhost:3000](http://localhost:3000)
